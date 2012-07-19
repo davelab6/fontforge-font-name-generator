@@ -70,7 +70,7 @@ def nameFont(registerobject, font):
 #	We could just set the name with
 #	fontName = gibberish(2).title()
 #	But we'll ask the user to pick one of 10
-	title = 'Name Font'
+	title = 'Name This Font'
 	question = 'Choose a font name:'
 	nameList = []
 	for i in range(10):
@@ -91,7 +91,7 @@ def nameFont(registerobject, font):
 		# Set PostScript Full Name (Family Name Style)
 		font.fullname = fontName + ' ' + font.weight
 		message = "New name:\n" + font.fullname
-		fontforge.postNotice("New Name", message)
+		fontforge.postNotice("New Name:", message)
 
 def shouldWeAppear(registerobject, font):
 	if font.fontname[0:8] == "Untitled":
