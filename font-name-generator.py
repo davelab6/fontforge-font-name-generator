@@ -28,7 +28,7 @@
 #   OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #   ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# Based on code from http://stackoverflow.com/questions/5501477
+# Based on code from https://github.com/greghaskins/gibberish
 """
 A FontForge plug-in to automatically generate font names.
 
